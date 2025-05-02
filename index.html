@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Age Calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-container">Hemanth Reddy - Age Calculator</div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container fade-in">
+      <h1 class="title">🎂 Age Calculator</h1>
+      <p class="description">Enter your date of birth to calculate your age in detail:</p>
+      <input type="datetime-local" id="dob" class="input-date" />
+      <button onclick="calculateAge()" class="btn">Calculate Age</button>
+      <div id="result" class="result fade-in-slow"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hemanth Reddy</p>
+    <p>contact us </p>
+    <p>phone no :7780260464</p>
+    <p><a href="Email:hemanthmummareddy@gmail.com" class="text-white" style="text-decoration: none;">Email:hemanthmummareddy@gmail.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
